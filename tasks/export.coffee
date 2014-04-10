@@ -1,6 +1,6 @@
 fs = require 'fs'
 
-{PSD} = require __dirname + '/../lib/psd.js'
+{PSD} = require __dirname + '/../src/psd.js'
 
 if process.argv.length is 2
   console.log "Please specify an input file"

@@ -196,7 +196,7 @@ class PSDResource
     1043:
       name: 'Spot Halftone'
       parse: ->
-        [@halftoneVersion, length] @file.readf ">LL"
+        [@halftoneVersion, length] = @file.readf ">LL"
         @halftoneData = @file.read length
 
     1044:

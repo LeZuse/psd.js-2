@@ -1,6 +1,6 @@
 fs = require 'fs'
 
-{PSD} = require __dirname + '/../lib/psd.js'
+{PSD} = require __dirname + '/../src/psd.js'
 
 PSD.DEBUG = true
 
